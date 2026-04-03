@@ -7,7 +7,7 @@
  *
  * @author USUARIO
  */
-package museo.models;
+package Museo.models;
 
 public class Objeto extends ObraArte {
 
