@@ -14,8 +14,8 @@ import java.util.List;
 
 public class Sala {
 
-    private String nombre;
-    private List<ObraArte> obras;
+    private final String nombre;
+    private final List<ObraArte> obras;
 
     public Sala(String nombre) {
         this.nombre = nombre;
