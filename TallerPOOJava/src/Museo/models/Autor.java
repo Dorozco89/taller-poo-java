@@ -7,7 +7,7 @@
  *
  * @author USUARIO
  */
-package Museo.models;
+package museo.models;
 
 public class Autor {
 

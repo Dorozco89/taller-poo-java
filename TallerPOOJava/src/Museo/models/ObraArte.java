@@ -7,7 +7,7 @@
  *
  * @author USUARIO
  */ 
-package Museo.models;
+package museo.models;
 
 import java.util.ArrayList;
 import java.util.List;

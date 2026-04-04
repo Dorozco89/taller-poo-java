@@ -18,9 +18,7 @@ public class Director extends Usuario {
 
     public double calcularValorTotal(Catalogo catalogo) {
         double total = 0;
-        for (ObraArte o : catalogo.listarObras()) {
-            total += o.calcularValor();
-        }
+        total = catalogo.listarObras().stream().map((o) -> o.calcularValor()).reduce(total, (accumulator, _item) -> accumulator + _item);
         return total;
     }
 }

@@ -7,8 +7,9 @@
  *
  * @author USUARIO
  */
-package museo.services;
+package Museo.services;
 
+import museo.models.Director;
 import museo.models.Usuario;
 
 public class Autenticacion {
@@ -18,5 +19,9 @@ public class Autenticacion {
             throw new IllegalArgumentException("Datos inválidos");
         }
         return usuario.autenticar(password);
+    }
+
+    public boolean login(Director director, String password) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
